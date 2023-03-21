@@ -27,9 +27,7 @@ public class YearTests {
     @Test
     public void allYearsNotDivisibleBy4AreNotLeapYears() {
         year = new Year(2017);
-        assertEquals(true, year.checkLeap());
+        assertEquals(false, year.checkLeap());
     }
-
-
-
+    
 }
